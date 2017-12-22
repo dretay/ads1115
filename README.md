@@ -21,4 +21,7 @@ Invoke Like this:
 	ads1115_configs[0].p_i2c = &hi2c2;
 	ads1115_configs[0].channel_cnt = 2;
 	ads1115_configs[0].channel_configs = ads1115_channel_configs;
+	
+        ADS1115.configure(ads1115_configs, 2);
+
 ```
